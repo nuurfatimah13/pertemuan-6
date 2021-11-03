@@ -33,5 +33,6 @@ Route::put('/animals/{id}', [AnimalController::class, 'update']);
 Route::delete('/animals/{id}', [AnimalController::class, 'destroy']);
 
 
+
 # Routing untuk students
 Route::get("/students", [StudentController::class, 'index']);
